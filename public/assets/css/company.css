@@ -127,7 +127,7 @@ h6 {
   background: #2b84f1;
 }
 
-.main__student-info {
+.main__student__company-info {
   display: flex;
   gap: 35px;
 }

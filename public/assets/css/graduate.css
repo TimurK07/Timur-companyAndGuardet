@@ -105,6 +105,11 @@ h6 {
   gap: 48px;
 }
 
+.main__student-info{
+  display: flex;
+  flex-direction: column;
+}
+
 .main__student_title {
   color: #000;
   font-size: 48px;
