@@ -84,6 +84,27 @@
   font-weight: 600;
 }
 
+.header__person::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 1px;
+  background: rgb(47, 66, 239);
+  position: absolute;
+  bottom: -5px;
+  left: 53%;
+  transform: translateX(-50%);
+  transition: width 0.3s;
+}
+
+.header__person:hover::after {
+  width: 96%;
+}
+
+.header__person-title:hover {
+  color: #1973e0;
+}
+
 @media screen and (max-width: 426px) {
   .header__img {
     position: relative;
@@ -130,5 +151,8 @@
 
   .header__img a {
     left: 88px;
+  }
+  .header__img img {
+    height: 60px;
   }
 }

@@ -116,26 +116,6 @@ h6 {
   font-weight: 700;
   margin-bottom: 12px;
 }
-.header__person::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 1px;
-  background: rgb(47, 66, 239);
-  position: absolute;
-  bottom: -5px;
-  left: 53%;
-  transform: translateX(-50%);
-  transition: width 0.3s;
-}
-
-.header__person:hover::after {
-  width: 96%;
-}
-
-.header__person-title:hover {
-  color: #1973e0;
-}
 
 .main_student_subtitle {
   color: #000;
@@ -397,50 +377,18 @@ h6 {
     justify-content: center;
   }
 
-  /* .header__img {
-    position: relative;
-  }
-  .header__img a {
-    width: 300px;
-    position: absolute;
-    bottom: -40px;
-    left: 105px;
-    margin-bottom: 40px;
-  } */
 }
 
 @media screen and (max-width: 376px) {
   .info__field p:nth-child(1) {
     font-size: 15px;
   }
-  /* .header__img a {
-    width: 200px;
-    position: absolute;
-    bottom: -40px;
-    left: 105px;
-    margin-bottom: 40px;
-  }
-
-  .header__sign-button {
-    width: 130px;
-  } */
 }
 
 @media screen and (max-width: 320px) {
   .info__field p:nth-child(1) {
     font-size: 15px;
   }
-  /* .header__img a {
-    width: 200px;
-    position: absolute;
-    bottom: -40px;
-    left: 105px;
-    margin-bottom: 40px;
-  }
-
-  .header__sign-button {
-    width: 95px;
-  } */
   .accordion {
     padding: 13px 21px;
   }
@@ -456,9 +404,6 @@ h6 {
     font-size: 26px;
   }
 
-  /* .header {
-    margin-bottom: 1px;
-  } */
   .main__student_title {
     font-size: 22px;
   }
@@ -491,7 +436,4 @@ h6 {
     font-size: 13px;
   }
 
-  /* .header__img a {
-    left: 88px;
-  } */
 }
