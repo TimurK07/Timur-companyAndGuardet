@@ -105,7 +105,7 @@ h6 {
   gap: 48px;
 }
 
-.main__student-info{
+.main__student-info {
   display: flex;
   flex-direction: column;
 }
@@ -397,7 +397,7 @@ h6 {
     justify-content: center;
   }
 
-  .header__img {
+  /* .header__img {
     position: relative;
   }
   .header__img a {
@@ -406,14 +406,14 @@ h6 {
     bottom: -40px;
     left: 105px;
     margin-bottom: 40px;
-  }
+  } */
 }
 
 @media screen and (max-width: 376px) {
   .info__field p:nth-child(1) {
     font-size: 15px;
   }
-  .header__img a {
+  /* .header__img a {
     width: 200px;
     position: absolute;
     bottom: -40px;
@@ -423,14 +423,14 @@ h6 {
 
   .header__sign-button {
     width: 130px;
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
   .info__field p:nth-child(1) {
     font-size: 15px;
   }
-  .header__img a {
+  /* .header__img a {
     width: 200px;
     position: absolute;
     bottom: -40px;
@@ -440,7 +440,7 @@ h6 {
 
   .header__sign-button {
     width: 95px;
-  }
+  } */
   .accordion {
     padding: 13px 21px;
   }
@@ -456,9 +456,9 @@ h6 {
     font-size: 26px;
   }
 
-  .header {
+  /* .header {
     margin-bottom: 1px;
-  }
+  } */
   .main__student_title {
     font-size: 22px;
   }
@@ -491,7 +491,7 @@ h6 {
     font-size: 13px;
   }
 
-  .header__img a {
+  /* .header__img a {
     left: 88px;
-}
+  } */
 }
